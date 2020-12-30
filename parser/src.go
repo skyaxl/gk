@@ -1,11 +1,12 @@
 package parser
 
 import (
-	"github.com/Sirupsen/logrus"
-	"github.com/kujtimiihoxha/gk/templates"
 	"go/format"
-	"golang.org/x/tools/imports"
 	"strings"
+
+	template "github.com/skyaxl/gk/templates"
+	"github.com/skyaxl/logrus"
+	"golang.org/x/tools/imports"
 )
 
 type ParsedSrc interface {
